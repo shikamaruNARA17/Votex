@@ -21,4 +21,4 @@ Build a production version with `npm run build`. Preview it locally with `npm ru
 - Adjust layout and styling in `src/portfolio.css`.
 - The supplied LinkedIn profile could not be accessed during development, so no additional profile details were assumed.
 
-The original Votex Git history remains. Its application files were removed at the user’s request; a local archive is retained outside this checkout at `/workspace/backups/votex-before-portfolio.tar.gz`. The GitHub repository itself has not been renamed.
+The portfolio is published from the `Devender1703/portfolio` repository. The Vite build reads the GitHub Actions repository name at build time to set the correct project-page asset paths.
